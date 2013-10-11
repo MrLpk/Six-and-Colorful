@@ -1,3 +1,6 @@
 http://kj.4394.com/kj/scores.xml  //貌似是取最近一期
+http://kj.4887.com/kj/     //貌似是取最近一期
+
+http://www.111kj.com/kjjg/2013.htm  // 历年开奖结果网页
 
 http://www.111kj.com/kjjg/2013.htm
