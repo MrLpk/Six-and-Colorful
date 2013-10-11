@@ -30,7 +30,9 @@ if __name__ == '__main__':
 #     key2 = r'<IMG src.+if">'
     w = '''<td width="187" align="center" valign="bottom" bgcolor="#FFFFFF">
 <IMG src="49m/48.gif"> <IMG src="49m/46.gif"> <IMG src="49m/33.gif"> <IMG src="49m/32.gif"> <IMG src="49m/25.gif"> <IMG src="49m/17.gif"></td>'''
-    key2 = r'\n.*</td>'
+#    key2 = '.*</td>'
+
+    key2 = r'\S*</td>'
     title2 = re.findall(key2, w)
     print 'title2 = \n', title2
     
