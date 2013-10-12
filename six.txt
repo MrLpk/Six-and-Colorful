@@ -1,0 +1,43 @@
+
+
+		<tr>
+			<td width="119" align="center" valign="middle" bgcolor="#FFFFFF">
+			<font face="Terminal">2012/10/30</font></td>
+			<td width="62" align="center" valign="middle" bgcolor="#FFFFFF">
+			<font face="Terminal">125</font></td>
+			<td width="187" align="center" valign="bottom" bgcolor="#FFFFFF">
+<IMG src="49m/40.gif"> <IMG src="49m/1.gif"> <IMG src="49m/28.gif"> <IMG src="49m/34.gif"> <IMG src="49m/20.gif"> <IMG src="49m/30.gif"></td>
+			<td width="77" align="center" valign="middle" bgcolor="#FFFFFF"><IMG src="49m/19.gif"></td>
+			<td width="60" align="center" valign="middle" bgcolor="#FFFFFF">
+			<font face="Fixedsys">172</font></td>
+			<td width="181" align="center" valign="middle" bgcolor="#FFFF99">
+			<font style="font-size: 9pt">狗.单数.小数.红波.家畜</font></td>
+		</tr>
+		<tr>
+			<td width="119" align="center" valign="middle" bgcolor="#FFFFFF">
+			<font face="Terminal">2012/11/01</font></td>
+			<td width="62" align="center" valign="middle" bgcolor="#FFFFFF">
+			<font face="Terminal">126</font></td>
+			<td width="187" align="center" valign="bottom" bgcolor="#FFFFFF">
+<IMG src="49m/18.gif"> <IMG src="49m/34.gif"> <IMG src="49m/28.gif"> <IMG src="49m/24.gif"> <IMG src="49m/42.gif"> 
+<IMG src="49m/15.gif"></td>
+			<td width="77" align="center" valign="middle" bgcolor="#FFFFFF"><IMG src="49m/2.gif"></td>
+			<td width="60" align="center" valign="middle" bgcolor="#FFFFFF">
+			<font face="Fixedsys">163</font></td>
+			<td width="181" align="center" valign="middle" bgcolor="#FFFF99">
+			<font style="font-size: 9pt">兔.双数.小数.红波.野兽</font></td>
+		</tr>
+		<tr>
+			<td width="119" align="center" valign="middle" bgcolor="#FFFFFF">
+			<font face="Terminal">2012/11/03</font></td>
+			<td width="62" align="center" valign="middle" bgcolor="#FFFFFF">
+			<font face="Terminal">127</font></td>
+			<td width="187" align="center" valign="bottom" bgcolor="#FFFFFF">
+<IMG src="49m/36.gif"> <IMG src="49m/33.gif"> <IMG src="49m/46.gif"> <IMG src="49m/12.gif"> <IMG src="49m/1.gif"> 
+<IMG src="49m/48.gif"></td>
+			<td width="77" align="center" valign="middle" bgcolor="#FFFFFF"><IMG src="49m/41.gif"></td>
+			<td width="60" align="center" valign="middle" bgcolor="#FFFFFF">
+			<font face="Fixedsys">217</font></td>
+			<td width="181" align="center" valign="middle" bgcolor="#FFFF99">
+			<font style="font-size: 9pt">鼠.单数.大数.蓝波.野兽</font></td>
+		</tr>
