@@ -16,15 +16,15 @@ def save(filename, contents):
     
 if __name__ == '__main__':
 
-#    url = 'http://www.111kj.com/kjjg/2012.htm'
+    url = 'http://www.111kj.com/kjjg/2012.htm'
+
+    result = urllib2.urlopen(url).read()
+
+#    save('six.txt', result)
+    result = result.decode('gbk')
 #
-#    result = urllib2.urlopen(url).read()
-#
-##    save('six.txt', result.decode('gbk'))
-#    result = result.decode('gbk')
-#
-#    key = r'<font face="Terminal">([^ ]*)</font></td>'
-#    title = re.findall(key, result)
+    key = r'<font face="Terminal">([^ ]*)</font></td>'
+    title = re.findall(key, result)
 #    print 'title = \n', title
     
 #    key2 = r'<IMG src[0-9A-Za-z ="/.<>\n]*.gif">'   //half good
@@ -34,8 +34,8 @@ if __name__ == '__main__':
     
 #    key2 = r'<(IMG src.*)</td>'
 
-#    key2 = r'#FFFFFF">\n([0-9A-Za-z ="/.<>  \n]*)</td>'
-    key2 = '<td width="187" align="center" valign="bottom" bgcolor="#FFFFFF">([\s\S]*)</td>'
+#    key2 = '#FFFFFF">\n([0-9A-Za-z ="/.<>  \n]*)\b</td>'
+    key2 = '<td width="187" align="center" valign="bottom" bgcolor="#FFFFFF">\n([\s\S]*gif">*)</td>'
     
     f = open('six.txt', 'r')
     a = f.read()
@@ -55,17 +55,17 @@ if __name__ == '__main__':
         </tr>'''
 
     title2 = re.findall(key2, a)
-    print a
+#    print a
     
     
     print 'title2 = \n', title2
     
-    print '\nitem ='
-    for item in title2:
-        print item
-        print '----------------------------'
+#    print '\nitem ='
+#    for item in title2:
+#        print item
+#        print '----------------------------'
     
-#    print 'title num = ', len(title)
+    print 'title num = ', len(title)
     print 'title2 num = ', len(title2)
 
             
