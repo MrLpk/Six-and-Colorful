@@ -20,7 +20,9 @@ class MTool:
         
     def save(self, filename, contents, reNew = True, path = ''):
         '''保存文件，参数:文件名、内容、是否覆盖更新、路径'''
-        if path != '':
+        if not path == '':
+            if not os.path.isdir(path):
+                os.mkdir(path)
             filename = path + filename
         if os.path.exists(filename):
             if not reNew:
