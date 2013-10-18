@@ -324,7 +324,7 @@ def save20xx_2(y,num):
     result = {'year':y, 'data':arr}
     j = json.dumps(result)
     m = MTool()
-    m.save('%d.json'%y, j, False, 'json/')
+    m.save('%d.json'%y, j, True, 'json/')
 
 #    fi = open('json/2012.json', 'r').read()
 #    js = json.loads(fi)
@@ -342,7 +342,7 @@ if __name__ == '__main__':
 
 #    key2 = '#FFFFFF">\n([0-9A-Za-z ="/.<>  \n]*)\b</td>'
 
-    save20xx_2(2013,119)
+    save20xx_2(2013,121)
 #    save2012()
 #    save2011()
 #    save20xx(2010, 152)
