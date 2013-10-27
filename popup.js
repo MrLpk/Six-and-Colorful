@@ -2,12 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-//document.write('gg');
   var xhr = new XMLHttpRequest();
   
   xhr.onreadystatechange = processRequest;
   
-  var url = 'http://lpkpytest.sinaapp.com';
+  var url = 'http://sixandcolor.sinaapp.com/check';
   xhr.open('GET', url, true);
   xhr.send();
   
@@ -15,9 +14,13 @@
     if (xhr.readyState == 4) {
       if (xhr.status == 0 || xhr.status == 200) {
         var data = xhr.responseText;
-		alert('...1');
-		alert(data);
-		alert('...');
+        // document.write(data);
+        alert(data);
+        data = "{"d": [38, 48, 47, 6, 30, 15], "s": "40", "t": "2013/10/29", "n": "125"}";
+        var obj = eval('('+data+')');
+        alert(obj);
+        var div = document.getElementById("d");
+        div.innerHTML = obj.n;
       } else {
         document.write('wrong');
       }

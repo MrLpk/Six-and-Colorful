@@ -70,13 +70,13 @@ def  request2():
             'd':d,
             's':s
         }
-
-	f = open('kj.json', 'r').read()
-	js = json.loads(f)
-	if v1 == js['n']:
-		print 'true'
-	else:
-		print 'false'
+	save(obj)
+	# f = open('kj.json', 'r').read()
+	# js = json.loads(f)
+	# if v1 == js['n']:
+	# 	print 'true'
+	# else:
+	# 	print 'false'
 if __name__ == '__main__':
 
 	try:
